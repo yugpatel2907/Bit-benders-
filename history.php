@@ -143,7 +143,7 @@ $result = $conn->query($sql);
       <tr>
         <td>
           <div style="display:flex; align-items:center; gap:1rem;">
-            <img src="<?= $row['image_url'] ?? 'placeholder.jpg' ?>" alt="Item" class="product-img">
+            
             <span><?= htmlspecialchars($row['title']) ?></span>
           </div>
         </td>
