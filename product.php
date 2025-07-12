@@ -75,7 +75,7 @@ if (!$product) {
 
 <div class="container">
   <h1><?= htmlspecialchars($product['title']) ?></h1>
-  <img src="<?= htmlspecialchars($product['image_url']) ?>" alt="<?= htmlspecialchars($product['title']) ?>">
+ 
 
   <div class="details">
     <p><strong>Category:</strong> <?= htmlspecialchars($product['category']) ?></p>
