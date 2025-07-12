@@ -195,7 +195,7 @@ while ($row = $result->fetch_assoc()) {
 <div class="banner"></div>
 
 <div class="intro">
-  <h1>Welcome, <?= htmlspecialchars($user['username']) ?>!</h1>
+  <h1>Welcome</h1>
   <p>Swap your style, not your values. Recycle fashion, reduce waste, and reinvent your wardrobe today!</p>
 </div>
 
