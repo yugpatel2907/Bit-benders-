@@ -94,8 +94,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <form method="POST">
     <input type="text" name="title" placeholder="Item Title" required>
     <textarea name="description" placeholder="Item Description" required></textarea>
-    <input type="text" name="category" placeholder="Category (e.g. Tops)" required>
-    <input type="text" name="type" placeholder="Type (e.g. Shirt)" required>
+  
     <input type="text" name="size" placeholder="Size (e.g. M, L)" required>
     <input type="text" name="condition" placeholder="Condition (e.g. New, Gently Used)" required>
     <input type="text" name="image_url" placeholder="Image URL" required>
